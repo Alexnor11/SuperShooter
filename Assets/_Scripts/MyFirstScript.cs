@@ -9,7 +9,7 @@ public class MyFirstScript : MonoBehaviour
     
     void Start()
     {
-        
+        print("Speed: " + speed);
     }
 
     
