@@ -6429,10 +6429,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1083100778}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 425b5cbbcad7d1045b8bf8687fdda936, type: 3}
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 37444f712ce4adf47829a60af81cc731, type: 2}
+--- !u!114 &1083100780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083100778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":0.1,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &1095856874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11882,6 +11901,10 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3800057320666834652, guid: 2c4e83671c4a4364a8a5d53561b8c15e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1083100780}
     - targetCorrespondingSourceObject: {fileID: 3800057320666834652, guid: 2c4e83671c4a4364a8a5d53561b8c15e,
         type: 3}
       insertIndex: -1
