@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ContactDestroyer : MonoBehaviour
 {
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
     }
