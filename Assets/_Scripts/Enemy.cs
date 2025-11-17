@@ -7,10 +7,10 @@ public class Enemy : MonoBehaviour
     
     void Start()
     {
-        EnemyManager.instance.enemies.Add(this);
+        EnemyManager.instance.AddEnemy(this);
     }
     private void OnDestroy()
     {
-        EnemyManager.instance.enemies.Remove(this);
+        EnemyManager.instance.RemoveEnemy(this);
     }
 }

@@ -6,7 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/__Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/__Scenes/SuperShooter.unity
+    guid: 41344b34fff253d4fa657e3bda74ee69
+  - enabled: 1
+    path: Assets/__Scenes/WinScreen.unity
+    guid: 89586b67d56f0994ebfe86358cc7985f
+  - enabled: 1
+    path: Assets/__Scenes/LoseScreen.unity
+    guid: 539f4ba411c6ef04dafb6ff29114fdbc
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
