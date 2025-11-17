@@ -11,7 +11,7 @@ public class WaveSpawner : MonoBehaviour
 
     private void Start()
     {
-        WaveManager.instance.waves.Add(this);
+        WaveManager.instance.Add(this);
 
         InvokeRepeating("Spawn", starttTime, spawnRate);
         Invoke("EndSpawner", endTime);
@@ -24,7 +24,7 @@ public class WaveSpawner : MonoBehaviour
     }
     void EndSpawner()
     {
-        WaveManager.instance.waves.Remove(this);
+        WaveManager.instance.RemoveWave(this);
         CancelInvoke();
     }
 }
