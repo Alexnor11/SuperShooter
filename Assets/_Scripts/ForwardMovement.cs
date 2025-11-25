@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ForwardMovement : MonoBehaviour
+{
+    [SerializeField] float speed;
+
+    void Update()
+    {
+        transform.Translate(0, speed * Time.deltaTime, 0);
+    }
+}
