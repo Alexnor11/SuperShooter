@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour
 {
-    public GameObject prefab;
+    public GameObject Enemy;
     public float startTime;
     public float endTime;
     public float spawnRate;
@@ -17,6 +17,6 @@ public class WaveSpawner : MonoBehaviour
 
     void Spawn()
     {
-        Instantiate(prefab, transform.position,transform.rotation);
+        Instantiate(Enemy, transform.position,transform.rotation);
     }
 }

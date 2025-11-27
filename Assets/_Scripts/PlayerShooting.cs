@@ -5,14 +5,14 @@ using UnityEngine.InputSystem;
 
 public class PlayerShooting : MonoBehaviour
 {
-    public GameObject prefab;
+    public GameObject Bullet;
     public GameObject shootPoint;
 
     public void OnFire(InputValue value)
     {
         if (value.isPressed) 
         {
-            GameObject clone = Instantiate(prefab);
+            GameObject clone = Instantiate(Bullet);
             clone.transform.position = shootPoint.transform.position;
             clone.transform.rotation = shootPoint.transform.rotation;
         }
