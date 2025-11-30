@@ -11,12 +11,19 @@ public class WaveSpawner : MonoBehaviour
 
     private void Start()
     {
+        WaveManager.instance.waves.Add(this);
         InvokeRepeating("Spawn", startTime, spawnRate);
-        Invoke("CancelInvoke", endTime);
+        Invoke("EndSpawner", endTime);
     }
 
     void Spawn()
     {
         Instantiate(Enemy, transform.position,transform.rotation);
+    }
+
+    void EndSpawner()
+    {
+        WaveManager.instance.waves.Remove(this);
+        CancelInvoke();
     }
 }
