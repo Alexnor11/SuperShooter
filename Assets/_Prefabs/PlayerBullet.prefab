@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2866718319377528992}
   - component: {fileID: 729389061784648781}
   - component: {fileID: 3376681149882277308}
-  - component: {fileID: 3082595479323946119}
+  - component: {fileID: 4483959757968358016}
   m_Layer: 8
   m_Name: PlayerBullet
   m_TagString: Untagged
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 5
---- !u!114 &3082595479323946119
+--- !u!114 &4483959757968358016
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,6 +173,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3652934610449690660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 676d746ffc065af418857a504e4ddf1b, type: 3}
+  m_Script: {fileID: 11500000, guid: 87717a5ce62a0dd42a03d916e133b4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 20
