@@ -5,8 +5,14 @@ using UnityEngine;
 public class ScoreOnDeath : MonoBehaviour
 {
     public int amount;
-    
-    private void OnDestroy()
+
+    private void Awake()
+    {
+        var life = GetComponent<Life>();
+        life.onDeth.AddListener(GivePoints);
+    }
+
+    private void GivePoints()
     {
         ScoreManager.instance.amount += amount;
     }
