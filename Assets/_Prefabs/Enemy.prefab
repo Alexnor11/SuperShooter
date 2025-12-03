@@ -70,6 +70,10 @@ MonoBehaviour:
   sightSensor: {fileID: 4213303137710596593}
   baseAttackDistance: 3
   playerAttackDistance: 5
+  lastShootTime: 0
+  bulletPrefab: {fileID: 5680288808391027089, guid: 2651c265d16b5034cbcbb89e40fc69a4,
+    type: 3}
+  fireRate: 2
 --- !u!1001 &4374088591156033945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -489,6 +493,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: -6500276493389946910}
+    - targetCorrespondingSourceObject: {fileID: 2417381152467906314, guid: c81f063d13607414ba27c7229908f206,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6060125919819267957}
   m_SourcePrefab: {fileID: 100100000, guid: c81f063d13607414ba27c7229908f206, type: 3}
 --- !u!1 &2107580445748319891 stripped
 GameObject:
@@ -521,6 +529,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7118957aa7e52c1499fee62080c5f049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!195 &6060125919819267957
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107580445748319891}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!4 &2107580445748415155 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2417381152468071210, guid: c81f063d13607414ba27c7229908f206,
