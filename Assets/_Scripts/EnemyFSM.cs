@@ -9,16 +9,15 @@ public class EnemyFSM : MonoBehaviour
     public enum EnemyState { GoToBase, AttackBase, ChasePlayer, AttackPlayer }
 
     public EnemyState currentState;
-
     public Sight sightSensor;
-    private Transform baseTransform;
+    public GameObject bulletPrefab;
+    
     public float baseAttackDistance;
     public float playerAttackDistance;
-
-    public float lastShootTime;
-    public GameObject bulletPrefab;
+    public float lastShootTime;    
     public float fireRate;
 
+    private Transform baseTransform;
     private NavMeshAgent agent;
 
     private void Awake()
