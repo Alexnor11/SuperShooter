@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8347d6f85f36e644e89114992f464938
+timeCreated: 1551089440
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106154
+  packageName: Sci Fi Warrior PBR HP Polyart
+  packageVersion: 1.2
+  assetPath: Assets/SciFiWarriorPBRHPPolyart/Materials/HP.mat
+  uploadId: 349698
