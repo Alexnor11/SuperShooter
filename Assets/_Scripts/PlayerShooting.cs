@@ -7,6 +7,7 @@ public class PlayerShooting : MonoBehaviour
 {
     public GameObject Bullet;
     public GameObject shootPoint;
+    public ParticleSystem muzzleEffect;
 
     public void OnFire(InputValue value)
     {
@@ -15,6 +16,8 @@ public class PlayerShooting : MonoBehaviour
             GameObject clone = Instantiate(Bullet);
             clone.transform.position = shootPoint.transform.position;
             clone.transform.rotation = shootPoint.transform.rotation;
+
+            muzzleEffect.Play();
         }
     }
 }

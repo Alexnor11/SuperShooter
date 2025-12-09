@@ -18,8 +18,8 @@ MonoBehaviour:
       serializedVersion: 2
       x: 852
       y: -1433
-      width: 475
-      height: 2161
+      width: 474
+      height: 1861
     contents:
     - model: {fileID: 8926484042661614608}
       id: 0
@@ -39,8 +39,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 852
     y: -1433
-    width: 475
-    height: 2257
+    width: 474
+    height: 1934
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -451,7 +451,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 877, y: -187}
+  m_UIPosition: {x: 877, y: -374}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -486,10 +486,10 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children:
+  - {fileID: 8926484042661614861}
   - {fileID: 8926484042661614830}
   - {fileID: 8926484042661614722}
-  - {fileID: 8926484042661614861}
-  m_UIPosition: {x: 878, y: 215}
+  m_UIPosition: {x: 877, y: -159}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -1296,7 +1296,7 @@ MonoBehaviour:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       m_SerializableObject: '{"vector":{"x":0.0,"y":-50.0,"z":0.0}}'
-    m_Space: 1
+    m_Space: 0
   m_Property:
     name: A
     m_serializedType:
@@ -1466,7 +1466,7 @@ MonoBehaviour:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       m_SerializableObject: '{"vector":{"x":0.0,"y":-75.0,"z":0.0}}'
-    m_Space: 1
+    m_Space: 0
   m_Property:
     name: B
     m_serializedType:
@@ -1956,7 +1956,7 @@ MonoBehaviour:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       m_SerializableObject: '{"position":{"x":-50.0,"y":0.0,"z":-50.0}}'
-    m_Space: 1
+    m_Space: 0
   m_Property:
     name: A
     m_serializedType:
@@ -2126,7 +2126,7 @@ MonoBehaviour:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       m_SerializableObject: '{"position":{"x":50.0,"y":0.0,"z":50.0}}'
-    m_Space: 1
+    m_Space: 0
   m_Property:
     name: B
     m_serializedType:
