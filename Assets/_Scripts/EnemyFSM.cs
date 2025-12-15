@@ -16,6 +16,7 @@ public class EnemyFSM : MonoBehaviour
     public float playerAttackDistance;
     public float lastShootTime;    
     public float fireRate;
+    public AudioSource shootSound;
 
     private Transform baseTransform;
     private NavMeshAgent agent;
@@ -107,6 +108,7 @@ public class EnemyFSM : MonoBehaviour
         {
             lastShootTime = Time.time;
             Instantiate(bulletPrefab, transform.position, transform.rotation);
+            Instantiate(shootSound, transform.position, transform.rotation);
         }       
     }
 

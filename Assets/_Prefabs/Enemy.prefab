@@ -74,6 +74,8 @@ MonoBehaviour:
   playerAttackDistance: 5
   lastShootTime: 0
   fireRate: 2
+  shootSound: {fileID: 186645129578076781, guid: 9ee817252aa944c4fa13076c57196105,
+    type: 3}
 --- !u!1001 &4374088591156033945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -568,6 +570,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particlePrefab: {fileID: 1121192042590650, guid: 9e2b308acede4b54aa27204de3c77a0a,
+    type: 3}
+  explosionsSound: {fileID: 8357087688836476967, guid: d81165e9e5f5b6740911c70a18ed603e,
     type: 3}
 --- !u!4 &2107580445748415155 stripped
 Transform:
