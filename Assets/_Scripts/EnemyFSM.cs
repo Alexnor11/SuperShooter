@@ -104,7 +104,7 @@ public class EnemyFSM : MonoBehaviour
     void Shoot()
     {
         var timeSincleLastShoot = Time.time - lastShootTime;
-        if(timeSincleLastShoot > fireRate)
+        if(timeSincleLastShoot > fireRate && Time.timeScale > 0)
         {
             lastShootTime = Time.time;
             Instantiate(bulletPrefab, transform.position, transform.rotation);
