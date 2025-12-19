@@ -1,0 +1,12 @@
+.HUDText {
+    position: absolute;
+    top: 50px;
+    left: auto;
+    right: 30px;
+    -unity-font-definition: url("project://database/Assets/_Fonts/militech_r_2019-04-13%20SDF.asset?fileID=11400000&guid=7f6a7fd1f5fe45445bfeb1a662418232&type=2#militech_r_2019-04-13 SDF");
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    align-self: auto;
+    align-items: stretch;
+    -unity-text-align: upper-center;
+}
