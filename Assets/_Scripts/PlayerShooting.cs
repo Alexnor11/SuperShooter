@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerShooting : MonoBehaviour
 {
     public GameObject bullet;
     public GameObject shootPoint;
 
-    private void Update()
+    public void OnFire(InputValue value)
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (value.isPressed)
         {
             GameObject clone = Instantiate(bullet);
             clone.transform.position = shootPoint.transform.position;
